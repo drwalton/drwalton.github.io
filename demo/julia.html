@@ -1,0 +1,94 @@
+---
+layout: default
+---
+
+<head>
+    <title>Julia Set Demo</title>
+
+    <script src="julia.js"></script>
+<script id="shader-vs" type="x-shader/x-vertex">
+	attribute vec3 vPos;
+
+	varying vec2 screenPos;
+
+	void main() {
+		screenPos = vPos.xy * 0.5;
+		gl_Position = vec4(vPos, 1.0);
+	}
+</script>
+<script id="shader-fs" type="x-shader/x-fragment">
+	precision highp float;
+
+	varying vec2 screenPos;
+
+	uniform vec2 offset;
+	uniform float scale;
+	uniform int maxIters;
+	uniform float aspect;
+	uniform vec2 c;
+
+#define POWER 2
+#define MAX_ITERS 100
+	const float maxDist = 2.0;
+
+	vec2 func(vec2 z, vec2 c)
+	{
+		for(int i = 1; i < POWER; ++i) {
+			z = vec2(z.x*z.x - z.y*z.y,
+					  2.0*z.x*z.y);
+		}
+		return z + c;
+	}
+
+	vec4 nItersToColor(int iters)
+	{
+		float v = float(iters) / float(maxIters);
+		return vec4(0, v, v, 1);
+	}
+
+	void main() {
+		vec2 scPos = screenPos;
+		scPos.x *= aspect;
+		scPos = scPos * scale;
+		vec2 z = scPos + offset;
+		
+		for(int i = 0; i < MAX_ITERS; ++i) {
+			if(i > maxIters) break;
+			z = func(z, c);
+			if(length(z) > maxDist) {
+				gl_FragColor = nItersToColor(i);
+				return;
+			}
+		}
+		
+		gl_FragColor = vec4(0, 0, 0, 1);
+	}
+</script>
+
+</head>
+<body onload="main();">
+<h1 id="titleh1">Julia Set</h1>
+<canvas id="Canvas" width="640" height="480"></canvas>
+<div>
+    <par>C: </par>
+    <input type="range" id="c-x-range" min=-3 max=3 step=0.01 value="0.1">
+    <input type="range" id="c-y-range" min=-3 max=3 step=0.01 value="0.65">
+</div>
+<div>
+	<par></par>
+    <par>Zoom: </par>
+    <input type="range" id="zoom-range" min=1 max=100 step=0.1 value="1">
+	<par></par>
+</div>
+<div>
+    <par>Offset: </par>
+    <input type="range" id="offset-x-range" min=-3 max=3 step=0.01 value="0.0">
+    <input type="range" id="offset-y-range" min=-3 max=3 step=0.01 value="0.0">
+</div>
+<div>
+	<par></par>
+    <par>Detail: </par>
+    <input type="range" id="maxiters-range" min=1 max=100 step=1 value="20">
+	<par></par>
+</div>
+

@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<head>
+    <title>Gravity Demo</title>
+
+    <script src="https://code.createjs.com/easeljs-0.8.0.min.js"></script>
+    <script src="https://code.createjs.com/tweenjs-0.6.0.min.js"></script>
+    <script src="https://code.createjs.com/soundjs-0.6.0.min.js"></script>
+    <script src="https://code.createjs.com/preloadjs-0.6.0.min.js"></script>
+    <script src="gravity.js"></script>
+
+</head>
+<body onload="main();">
+<h1>Gravity Demo</h1>
+<canvas id="GravityStage" width="480" height="320"></canvas>
+<div>
+    <par id="info-par">Click inside window to attract ball towards cursor.</par>
+</div>
+<div>
+    <par>Mouse Gravity Strength: </par>
+    <input type="range" id="gravity-range" min=0 max=10 step=0.01 value="1">
+    <par id="gravity-val">1</par>
+</div>
+<div>
+    <par>Ball Elasticity: </par>
+    <input type="range" id="bounciness-range" min=0 max=1 step=0.01 value="0.5">
+    <par id="bounciness-val">0.5</par>
+</div>
+<div>
+    <par>Downward Gravity: </par>
+    <input type="range" id="down-grav-range" min=0 max=1 step=0.01 value="0.1">
+    <par id="down-grav-val">0.1</par>
+</div>
+<div>
+    <par>Ball-Wall Friction: </par>
+    <input type="range" id="wall-friction-range" min=0 max=1 step=0.01 value="0.1">
+    <par id="wall-friction-val">0.1</par>
+</div>
+<div>
+    <par id="info-par2"></par>
+</div>
+</body>
+
