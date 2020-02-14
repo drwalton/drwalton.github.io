@@ -3,6 +3,7 @@ var shaderProgram;
 var vertPosAttribLoc;
 var quadBuffer;
 var offset = [ 0.0, 0.0 ];
+var offsetSpeed = [ 1.0 / 640, 1.0 / 480];
 var scale = 4.0;
 var maxIters = 20;
 var c = [ 0.1, 0.65 ];
@@ -14,10 +15,23 @@ var maxItersLoc;
 var cLoc;
 var aspectLoc;
 var aspect = 640.0 / 480.0;
+var clickX, clickY;
+var clickOffset = [0.0, 0.0];
+
+function mouseDrag(event) {
+	var x = event.clientX - clickX;
+	var y = event.clientY - clickY;
+	offset[0] = clickOffset[0] - x * offsetSpeed[0] * scale;
+	offset[1] = clickOffset[1] + y * offsetSpeed[1] * scale;
+	gl.uniform2fv(offsetLoc, new Float32Array(offset));
+	render();
+}
 
 function main() {
 	var canvas = document.getElementById('Canvas');
 	gl = initWebGL(canvas);
+	offsetSpeed = [1.0 / canvas.width, 1.0 / canvas.height];
+	aspect = (canvas.width + 0.0) / (canvas.height + 0.0);
 
 	if(!gl) return;
 
@@ -69,18 +83,17 @@ function main() {
 		gl.uniform2fv(cLoc, new Float32Array(c));
 		render();
 	}
-	var offsetxSlider = document.getElementById("offset-x-range");
-	offsetxSlider.oninput = function() {
-		offset[0] = -parseFloat(this.value);
-		gl.uniform2fv(offsetLoc, new Float32Array(offset));
-		render();
-	}
-	var offsetySlider = document.getElementById("offset-y-range");
-	offsetySlider.oninput = function() {
-		offset[1] = -parseFloat(this.value);
-		gl.uniform2fv(offsetLoc, new Float32Array(offset));
-		render();
-	}
+	canvas.addEventListener("mousedown", function (event) {
+		clickX = event.clientX;
+		clickY = event.clientY;
+		clickOffset[0] = offset[0];
+		clickOffset[1] = offset[1];
+		canvas.addEventListener("mousemove", mouseDrag, false);
+	}, false);
+	canvas.addEventListener("mouseup", function (event) {
+		canvas.removeEventListener("mousemove", mouseDrag);
+	}, false);
+
 	var zoomSlider = document.getElementById("zoom-range");
 	zoomSlider.oninput = function() {
 		scale = 4.0 / parseFloat(this.value);
@@ -149,5 +162,6 @@ function render() {
 	gl.bindBuffer(gl.ARRAY_BUFFER, quadBuffer);
 	gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
 }
+
 
 
