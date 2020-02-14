@@ -71,7 +71,7 @@ function main() {
 	cxSlider.oninput = function() {
 		c[0] = parseFloat(this.value);
 		document.getElementById("titleh1").innerHTML =
-			"Julia Set: C = " + c[0] + " + " + c[1] + "i";
+			"Julia Set of Z<sup>2</sup> + C where C = " + c[0] + " + " + c[1] + "i";
 		gl.uniform2fv(cLoc, new Float32Array(c));
 		render();
 	}
@@ -79,7 +79,7 @@ function main() {
 	cySlider.oninput = function() {
 		c[1] = parseFloat(this.value);
 		document.getElementById("titleh1").innerHTML =
-			"Julia Set: C = " + c[0] + " + " + c[1] + "i";
+			"Julia Set of Z<sup>2</sup> + C where C = " + c[0] + " + " + c[1] + "i";
 		gl.uniform2fv(cLoc, new Float32Array(c));
 		render();
 	}
@@ -129,7 +129,7 @@ function main() {
 	gl.vertexAttribPointer(vertPosAttribLoc, 3, gl.FLOAT, false, 0, 0);
 
 	document.getElementById("titleh1").innerHTML =
-		"Julia Set: C = " + c[0] + " + " + c[1] + "i";
+		"Julia Set of Z<sup>2</sup> + C where C = " + c[0] + " + " + c[1] + "i";
 	render();
 }
 
