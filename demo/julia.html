@@ -26,6 +26,7 @@ layout: default
 	uniform int maxIters;
 	uniform float aspect;
 	uniform vec2 c;
+	uniform int colorMode;
 
 #define POWER 2
 #define MAX_ITERS 100
@@ -40,10 +41,47 @@ layout: default
 		return z + c;
 	}
 
-	vec4 nItersToColor(int iters)
+	vec4 nItersToColor0(int iters)
 	{
 		float v = float(iters) / float(maxIters);
 		return vec4(0, v, v, 1);
+	}
+
+	vec3 hueToRgb(float hue)
+	{
+		return vec3(
+			abs(hue*6.0 - 3.0) - 1.0,
+			2.0 - abs(hue*6.0 - 2.0),
+			2.0 - abs(hue*6.0 - 4.0)
+		);
+	}
+
+	vec4 nItersToColor1(int iters)
+	{
+		float v = float(iters) / float(maxIters);
+		vec3 rgb = hueToRgb(v);
+		return vec4(rgb * v, 1);
+	}
+
+	vec4 nItersToColor2(int iters)
+	{
+		float v = float(iters) / float(maxIters);
+		vec3 rgb = hueToRgb(mod(v+0.5, 1.0));
+		return vec4(rgb * v, 1);
+	}
+
+	vec4 nItersToColor3(int iters)
+	{
+		float v = float(iters) / float(maxIters);
+		vec3 rgb = hueToRgb(mod(v*2.0 + 0.2, 1.0));
+		return vec4(rgb * v, 1);
+	}
+
+	vec4 nItersToColor4(int iters)
+	{
+		float v = float(iters) / float(maxIters);
+		vec3 rgb = hueToRgb(mod(v*4.0 + 0.8, 1.0));
+		return vec4(rgb * v, 1);
 	}
 
 	void main() {
@@ -56,7 +94,19 @@ layout: default
 			if(i > maxIters) break;
 			z = func(z, c);
 			if(length(z) > maxDist) {
-				gl_FragColor = nItersToColor(i);
+				if(colorMode == 0) {
+					gl_FragColor = nItersToColor0(i);
+				} else if(colorMode == 1) {
+					gl_FragColor = nItersToColor1(i);
+				} else if(colorMode == 2) {
+					gl_FragColor = nItersToColor2(i);
+				} else if(colorMode == 3) {
+					gl_FragColor = nItersToColor3(i);
+				} else if(colorMode == 4) {
+					gl_FragColor = nItersToColor4(i);
+				} else {
+					gl_FragColor = nItersToColor0(i);
+				}
 				return;
 			}
 		}
@@ -87,8 +137,14 @@ layout: default
 </div>
 <div>
 	<par></par>
-    <par>Detail: </par>
+    <par>detail: </par>
     <input type="range" id="maxiters-range" min=1 max=100 step=1 value="20">
+	<par></par>
+</div>
+<div>
+	<par></par>
+    <par>Color mode: </par>
+    <input type="range" id="colormode-range" min=0 max=4 step=1 value="0">
 	<par></par>
 </div>
 

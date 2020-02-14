@@ -6,6 +6,7 @@ var offset = [ 0.0, 0.0 ];
 var scale = 4.0;
 var maxIters = 20;
 var c = [ 0.1, 0.65 ];
+var colorMode = 0;
 
 var offsetLoc;
 var scaleLoc;
@@ -42,6 +43,7 @@ function main() {
 	scaleLoc = gl.getUniformLocation(shaderProgram, "scale");
 	maxItersLoc = gl.getUniformLocation(shaderProgram, "maxIters");
 	aspectLoc = gl.getUniformLocation(shaderProgram, "aspect");
+	colorModeLoc = gl.getUniformLocation(shaderProgram, "colorMode");
 	cLoc = gl.getUniformLocation(shaderProgram, "c");
 
 	gl.uniform2fv(offsetLoc, new Float32Array(offset));
@@ -49,6 +51,7 @@ function main() {
 	gl.uniform1i(maxItersLoc, maxIters);
 	gl.uniform1f(aspectLoc, aspect);
 	gl.uniform2fv(cLoc, new Float32Array(c));
+	gl.uniform1i(colorModeLoc, colorMode);
 
 	var cxSlider = document.getElementById("c-x-range");
 	cxSlider.oninput = function() {
@@ -88,6 +91,12 @@ function main() {
 	maxItersSlider.oninput = function() {
 		maxIters = parseInt(this.value);
 		gl.uniform1i(maxItersLoc, maxIters);
+		render();
+	}
+	var colorModeSlider = document.getElementById("colormode-range");
+	colorModeSlider.oninput = function() {
+		mode = parseInt(this.value);
+		gl.uniform1i(colorModeLoc, mode);
 		render();
 	}
 	
