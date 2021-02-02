@@ -3,21 +3,31 @@ I am a postdoctoral research fellow, working at the [Virtual Environments and Co
 
 # Publications
 
+## 2019
+
+**Improved Real-time Rendering for Mixed Reality** (EngD Thesis)
+_David R. Walton_
+[\[PDF\]](https://discovery.ucl.ac.uk/id/eprint/10079327/1/Walton_000_Thesis.pdf)
+
+
 ## 2018
 
 **Dynamic HDR Environment Capture for Mixed Reality** (VRST 2018)
-_David Walton and Anthony Steed_
+_David R. Walton and Anthony Steed_
 [\[PDF\]](https://discovery.ucl.ac.uk/id/eprint/10073554/1/VRST_2018_preprint.pdf)
+[\[Bibtex\]](bibtex/vrst_2018.html)
 
 ## 2017
 
 **Accurate Real-time Occlusion for Mixed Reality** (VRST 2017)
-_David Walton and Anthony Steed_\
+_David R. Walton and Anthony Steed_\
 [\[PDF\]](https://discovery.ucl.ac.uk/id/eprint/1575582/7/Walton_a11-walton.pdf) 
+[\[Bibtex\]](bibtex/vrst_2017.html)
 
 **Synthesis of Environment Maps for Mixed Reality** (ISMAR 2017)
-_David Walton, Diego Thomas, Anthony Steed and Akihiro Sugimoto_
+_David R. Walton, Diego Thomas, Anthony Steed and Akihiro Sugimoto_
 [\[PDF\]](https://discovery.ucl.ac.uk/id/eprint/1569655/1/ISMAR_RevisedSubmission_2017_06.pdf)
+[\[Bibtex\]](bibtex/ismar_2017.html)
 
 # Links
 
