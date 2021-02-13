@@ -1,6 +1,6 @@
 
 <img align="right" src="images/david.JPG" height=150 hspace=10>
-I am a postdoctoral research fellow, working at the [Virtual Environments and Computer Graphics](http://vecg.cs.ucl.ac.uk/) group at [University College London](https://www.ucl.ac.uk/) with [Anthony Steed](https://wp.cs.ucl.ac.uk/anthonysteed/). My research focuses on rendering and computer vision techinques for virtual and augmented reality.
+I am a postdoctoral research fellow, working at the [Virtual Environments and Computer Graphics](http://vecg.cs.ucl.ac.uk/) group at [University College London](https://www.ucl.ac.uk/) with [Anthony Steed](https://wp.cs.ucl.ac.uk/anthonysteed/). My research focuses on rendering and computer vision techniques for virtual and augmented reality.
 
 # Publications
 
@@ -76,9 +76,9 @@ From 2018-2020 I continued to work at [Imagination Technologies](https://www.ima
 
 From 2014-2018 I worked on an EngD project, a collaboration between the [Virtual Environments, Imaging and Visualisation Centre](https://veiv.cs.ucl.ac.uk/index.html) at UCL and [Imagination Technologies](https://www.imaginationtech.com/). It focused on novel real-time rendering techniques for AR, particularly on techniques applicable to mobile devices. This was supervised by [Prof. Anthony Steed](https://wp.cs.ucl.ac.uk/anthonysteed/) from UCL, and [Luke Peterson](https://www.linkedin.com/in/lupeterson/) and [Paul Brasnett](https://www.linkedin.com/in/paul-brasnett-870343b6/) of Imagination Technologies.
 
-The EngD included a taught MRes component, during which I took courses including Computer Vision, Computer Graphics and Virtual Reality. As part of the VR course group project, we developed an immersive VR application for the [CAVE](http://www0.cs.ucl.ac.uk/research/vr/Projects/Cave/). 
+The EngD included a taught MRes component, during which I took courses including Computer Vision, Computer Graphics and Virtual Reality. As part of the VR course group project, we developed an immersive VR application for the [CAVE](http://www0.cs.ucl.ac.uk/research/vr/Projects/Cave/). I passed the MRes component with a distinction and was added to the Dean's list.
 
-During the EngD I took part in an internship, working for 6 months at the [National Institute for Informatics](https://www.nii.ac.jp/en/) in Tokyo supervised by [Prof. Akihiro Sugimoto](http://research.nii.ac.jp/~sugimoto/) and collaborating with [Diego Thomas](https://limu.ait.kyushu-u.ac.jp/e/member/member0042.html) of Kyushu University.
+During the EngD I took part in an internship, working for 6 months at the [National Institute for Informatics](https://www.nii.ac.jp/en/) in Tokyo supervised by [Prof. Akihiro Sugimoto](http://research.nii.ac.jp/~sugimoto/) and collaborating with [Diego Thomas](https://sites.google.com/site/diegotthomas/home) of Kyushu University.
 
 ## BSc Mathematics, MSc Computer Science and Applications, University of Warwick 2009-2013
 
