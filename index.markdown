@@ -25,6 +25,7 @@ My EngD project focused on real-time techniques for enhancing graphics in MR app
 _David R. Walton and Anthony Steed_
 [\[PDF\]](https://discovery.ucl.ac.uk/id/eprint/10073554/1/VRST_2018_preprint.pdf) 
 [\[Bibtex\]](bibtex/vrst_2018.html)
+[\[Video\]](https://vimeo.com/429299252)
 
 
 This paper built on the earlier work in **Synthesis of Environment Maps for Mixed Reality** below. We present new techinques allowing the estimation of full HDR environment maps, and allowing us to respond much more quickly to changes in the real 3D environment. These improvements do not require any additional sensing hardware. We demonstrate a full AR application capable of working in real time.
@@ -40,6 +41,7 @@ This paper built on the earlier work in **Synthesis of Environment Maps for Mixe
 _David R. Walton and Anthony Steed_
 [\[PDF\]](https://discovery.ucl.ac.uk/id/eprint/1575582/7/Walton_a11-walton.pdf) 
 [\[Bibtex\]](bibtex/vrst_2017.html)
+[\[Video\]](https://vimeo.com/429298989)
 
 In MR applications, correctly handling occlusion of virtual objects by real ones is critical to maintaining a good user experience, but this remains a significant challenge. Consumer depth sensors can be used for this purpose, but the depth maps they provide are noisy, incomplete and often unreliable. This paper presents a technique for using these depth maps to estimate a high-quality occlusion matte. We also develop a technique for quantitatively comparing the quality of AR occlusion handling methods, and use it to assess our approach and others.
 
