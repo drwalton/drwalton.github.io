@@ -2,7 +2,28 @@
 <img align="right" src="images/david.JPG" height=150 hspace=10>
 I am a postdoctoral research fellow, working at the [Virtual Environments and Computer Graphics](http://vecg.cs.ucl.ac.uk/) group at [University College London](https://www.ucl.ac.uk/) with [Anthony Steed](https://wp.cs.ucl.ac.uk/anthonysteed/). My research focuses on rendering and computer vision techniques for virtual and augmented reality.
 
+# Research Interests
+
+## Computer Graphics for Mixed Reality
+
+Mixed reality creates new challenges when producing high quality real-time graphics. The rendered virtual content needs to not only appear realistic, but also consistent with the existing real content. One challenge is how to effectively estimate the real lighting environment, and how to use the estimate to render the virtual content. Another is that of accurately determining where virtual content is obscured by real content, and should not be rendered.
+
+## Real-time Computer Graphics and Perception
+
+Advances in display technology are allowing increasingly high-fidelity displays to be produced. As pixel density increases, however, it becomes increasingly challenging to render content at full resolution in real time. Additionally, the bandwidth required to stream content to these displays becomes problematic. Given access to eye tracking, how can we exploit this information to reduce bandwidth and computational requirements without sacrificing perceived quality?
+
 # Publications
+
+## 2021
+
+<a href="images/walton2021beyond.jpg">
+<img align="left" src="images/walton2021beyond.jpg" width=100 hspace=10>
+</a>
+**Beyond Blur: Real-time Metamers for Foveated Rendering**
+
+_D Walton, R Kuffner-dos Anjos, S Friston, D Swapp, A Steed, T Ritschel_
+
+ACM Trans Graph (Proc. SIGGRAPH 2021) 40(3)
 
 ## 2019
 <a href="images/thesis.png">
@@ -20,9 +41,11 @@ My EngD project focused on real-time techniques for enhancing graphics in MR app
 <a href="images/vrst_2018.png">
 <img align="left" src="images/vrst_2018.png" width=100 hspace=10>
 </a>
-**Dynamic HDR Environment Capture for Mixed Reality** (VRST 2018)
+**Dynamic HDR Environment Capture for Mixed Reality** 
 
 _David R. Walton and Anthony Steed_
+
+VRST 2018
 [\[PDF\]](https://discovery.ucl.ac.uk/id/eprint/10073554/1/VRST_2018_preprint.pdf) 
 [\[Bibtex\]](bibtex/vrst_2018.html)
 [\[Video\]](https://vimeo.com/429299252)
@@ -36,9 +59,11 @@ This paper built on the earlier work in **Synthesis of Environment Maps for Mixe
 <a href="images/vrst_2017.png">
 <img align="left" src="images/vrst_2017.png" width=100 hspace=10>
 </a>
-**Accurate Real-time Occlusion for Mixed Reality** (VRST 2017)
+**Accurate Real-time Occlusion for Mixed Reality**
 
 _David R. Walton and Anthony Steed_
+
+VRST 2017
 [\[PDF\]](https://discovery.ucl.ac.uk/id/eprint/1575582/7/Walton_a11-walton.pdf) 
 [\[Bibtex\]](bibtex/vrst_2017.html)
 [\[Video\]](https://vimeo.com/429298989)
@@ -48,9 +73,11 @@ In MR applications, correctly handling occlusion of virtual objects by real ones
 <a href="images/ismar_2017.png">
 <img align="left" src="images/ismar_2017.png" width=100 hspace=10>
 </a>
-**Synthesis of Environment Maps for Mixed Reality** (ISMAR 2017)
+**Synthesis of Environment Maps for Mixed Reality**
 
 _David R. Walton, Diego Thomas, Anthony Steed and Akihiro Sugimoto_
+
+ISMAR 2017
 [\[PDF\]](https://discovery.ucl.ac.uk/id/eprint/1569655/1/ISMAR_RevisedSubmission_2017_06.pdf)
 [\[Bibtex\]](bibtex/ismar_2017.html)
 
