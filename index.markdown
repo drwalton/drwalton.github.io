@@ -23,7 +23,7 @@ Advances in display technology are allowing increasingly high-fidelity displays 
 
 _D Walton, R Kuffner-dos Anjos, S Friston, D Swapp, A Steed, T Ritschel_
 
-ACM Trans Graph (Proc. SIGGRAPH 2021) 40(3)
+ACM Trans Graph (Proc. SIGGRAPH 2021) 40(3) [\[PDF\]](https://drwalton.github.io/papers/Beyond_Blur_Preprint.pdf) [\[Webpage\]](http://www.homepages.ucl.ac.uk/~ucabdw0/)
 
 ## 2019
 <a href="images/thesis.png">
