@@ -25,6 +25,8 @@ _D Walton, R Kuffner-dos Anjos, S Friston, D Swapp, A Steed, T Ritschel_
 
 ACM Trans Graph (Proc. SIGGRAPH 2021) 40(3) [\[PDF\]](https://drwalton.github.io/papers/Beyond_Blur_Preprint.pdf) [\[Webpage\]](http://www.homepages.ucl.ac.uk/~ucabdw0/)
 
+This work introduces a new method for foveated rendering using ventral image metamers. These are alternative versions of images which are indistinguishable from the original for a given fixation point. We introduce a method to extract a model of the perceivable components of an image for a given fixation point, and a method to convert this model to a metamer of the input. Both methods are fast, and the model is compact, allowing metamers to be used for the first time in real-time compression and rendering applications.
+
 ## 2019
 <a href="images/thesis.png">
 <img align="left" src="images/thesis.png" width=100 hspace=10>
