@@ -4,15 +4,48 @@ I am a postdoctoral research fellow, working at the [Virtual Environments and Co
 
 # Research Interests
 
+## Real-time Computer Graphics, Perception and Displays
+
+Advances in display technology are allowing increasingly high-fidelity displays to be produced. As pixel density increases, however, it becomes increasingly challenging to render content at full resolution in real time. Additionally, the bandwidth required to stream content to these displays becomes problematic. Given access to eye tracking, how can we exploit this information to reduce bandwidth and computational requirements without sacrificing perceived quality? How should our knowledge of human perception influence the way we design displays?
+
 ## Computer Graphics for Mixed Reality
 
 Mixed reality creates new challenges when producing high quality real-time graphics. The rendered virtual content needs to not only appear realistic, but also consistent with the existing real content. One challenge is how to effectively estimate the real lighting environment, and how to use the estimate to render the virtual content. Another is that of accurately determining where virtual content is obscured by real content, and should not be rendered.
 
-## Real-time Computer Graphics and Perception
-
-Advances in display technology are allowing increasingly high-fidelity displays to be produced. As pixel density increases, however, it becomes increasingly challenging to render content at full resolution in real time. Additionally, the bandwidth required to stream content to these displays becomes problematic. Given access to eye tracking, how can we exploit this information to reduce bandwidth and computational requirements without sacrificing perceived quality?
-
 # Publications
+
+## 2022
+
+<a href="images/metalight.jpg">
+<img align="left" src="images/metalight.jpg" width=100 hspace=10>
+</a>
+**Metameric Light Fields**
+
+_Prithvi Kohli, David R. Walton, Rafael Kuffner dos Anjos, Anthony Steed and Tobias Ritschel_
+
+To appear as a poster in IEEEVR 2022 
+[\[Page\]](https://vr.cs.ucl.ac.uk/research/pipelines/metameric-light-fields/)
+[More Coming Soon]
+
+This work extends the metamer generation to 3D light fields. These present some unique challenges when trying to create metamers with coherent, convincing motion in the periphery. We show how these light field metamers can be generated, and explore how they can be efficiently compressed.
+
+<a href="images/metaholo.jpg">
+<img align="left" src="images/metaholo.jpg" width=100 hspace=10>
+</a>
+**Metameric Varifocal Holography**
+
+_David R. Walton, Koray Kavakli, Rafael Kuffner dos Anjos, David Swapp, Tim Weyrich, Hakan Urey, Anthony Steed, Tobias Ritschel and Kaan Aksit_
+
+ArXiv, to appear in IEEEVR 2022 
+[\[PDF(ArXiv)\]](https://arxiv.org/abs/2110.01981) 
+[\[Page\]](https://vr.cs.ucl.ac.uk/research/pipelines/metameric-varifocal-holography/) 
+[\[Video\]](https://vimeo.com/623474853) 
+[\[Supplementary Material\]](http://vr.cs.ucl.ac.uk/wp-content/uploads/sites/24/2021/10/Metameric_Varifocal_Holography_Supplemental_Material.pdf) 
+[\[Code\]](https://github.com/complight/metameric_holography) 
+[\[Library\]](https://github.com/kunguz/odak)
+
+This work focuses on improving computer generated holograms where gaze information is known. It exploits gaze in two ways. First, by using a metameric loss based on our earlier Beyond Blur paper which only penalises perceivable content in the hologram. Second, the holograms are optimised to be correct only at the user's current focal plane. We test our results on a real holographic display prototype.
+
 
 ## 2021
 
@@ -23,7 +56,11 @@ Advances in display technology are allowing increasingly high-fidelity displays 
 
 _D Walton, R Kuffner-dos Anjos, S Friston, D Swapp, A Steed, T Ritschel_
 
-ACM Trans Graph (Proc. SIGGRAPH 2021) 40(3) [\[PDF\]](https://drwalton.github.io/papers/Beyond_Blur_Preprint.pdf) [\[Webpage\]](http://www.homepages.ucl.ac.uk/~ucabdw0/)
+ACM Trans Graph (Proc. SIGGRAPH 2021) 40(3) 
+[\[PDF\]](https://drwalton.github.io/papers/Beyond_Blur_Preprint.pdf) 
+[\[Webpage\]](https://vr-unity-viewer.cs.ucl.ac.uk/) 
+[\[Unity Package\]](https://vr-unity-viewer.cs.ucl.ac.uk/assets/UnityPackage.zip) 
+[\[Windows Demo\]](https://vr-unity-viewer.cs.ucl.ac.uk/MetamersDemo.zip)
 
 This work introduces a new method for foveated rendering using ventral image metamers. These are alternative versions of images which are indistinguishable from the original for a given fixation point. We introduce a method to extract a model of the perceivable components of an image for a given fixation point, and a method to convert this model to a metamer of the input. Both methods are fast, and the model is compact, allowing metamers to be used for the first time in real-time compression and rendering applications.
 
@@ -69,6 +106,7 @@ VRST 2017
 [\[PDF\]](https://discovery.ucl.ac.uk/id/eprint/1575582/7/Walton_a11-walton.pdf) 
 [\[Bibtex\]](bibtex/vrst_2017.html)
 [\[Video\]](https://vimeo.com/429298989)
+[\[Code\]](https://github.com/drwalton/mrocclusion)
 
 In MR applications, correctly handling occlusion of virtual objects by real ones is critical to maintaining a good user experience, but this remains a significant challenge. Consumer depth sensors can be used for this purpose, but the depth maps they provide are noisy, incomplete and often unreliable. This paper presents a technique for using these depth maps to estimate a high-quality occlusion matte. We also develop a technique for quantitatively comparing the quality of AR occlusion handling methods, and use it to assess our approach and others.
 
