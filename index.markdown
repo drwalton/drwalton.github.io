@@ -23,9 +23,11 @@ Mixed reality creates new challenges when producing high quality real-time graph
 
 _Prithvi Kohli, David R. Walton, Rafael Kuffner dos Anjos, Anthony Steed and Tobias Ritschel_
 
-To appear as a poster in IEEEVR 2022 
+IEEEVR 2022, Poster
 [\[Page\]](https://vr.cs.ucl.ac.uk/research/pipelines/metameric-light-fields/)
-[More Coming Soon]
+[\[Poster\]](https://docs.google.com/presentation/d/1Ie3Vy5Bs3SWeCePeJEVUhX8SEq4VblZen7Nz9NqRKWs/edit#slide=id.p)
+[\[Short Paper\]](https://vr.cs.ucl.ac.uk/wp-content/uploads/sites/24/2022/03/Metameric__Light_Fields_Poster.pdf)
+[\[Teaser Video\]](https://www.youtube.com/watch?v=uCWhjDCPIWY)
 
 This work extends the metamer generation to 3D light fields. These present some unique challenges when trying to create metamers with coherent, convincing motion in the periphery. We show how these light field metamers can be generated, and explore how they can be efficiently compressed.
 
@@ -36,7 +38,7 @@ This work extends the metamer generation to 3D light fields. These present some 
 
 _David R. Walton, Koray Kavakli, Rafael Kuffner dos Anjos, David Swapp, Tim Weyrich, Hakan Urey, Anthony Steed, Tobias Ritschel and Kaan Aksit_
 
-ArXiv, to appear in IEEEVR 2022 
+IEEEVR 2022 
 [\[PDF(ArXiv)\]](https://arxiv.org/abs/2110.01981) 
 [\[Page\]](https://vr.cs.ucl.ac.uk/research/pipelines/metameric-varifocal-holography/) 
 [\[Video\]](https://vimeo.com/623474853) 
