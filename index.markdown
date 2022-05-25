@@ -19,7 +19,7 @@ Mixed reality creates new challenges when producing high quality real-time graph
 <a href="images/metalight.jpg">
 <img align="left" src="images/metalight.jpg" width=100 hspace=10>
 </a>
-**Metameric Light Fields**
+**Beyond Flicker, Beyond Blur: View-coherent Metameric Light Fields for Foveated DisplayMetameric Light Fields for **
 
 _Prithvi Kohli, David R. Walton, Rafael Kuffner dos Anjos, Anthony Steed and Tobias Ritschel_
 
@@ -34,7 +34,7 @@ This work extends the metamer generation to 3D light fields. These present some 
 <a href="images/metaholo.jpg">
 <img align="left" src="images/metaholo.jpg" width=100 hspace=10>
 </a>
-**Metameric Varifocal Holography**
+**Metameric Varifocal Holograms**
 
 _David R. Walton, Koray Kavakli, Rafael Kuffner dos Anjos, David Swapp, Tim Weyrich, Hakan Urey, Anthony Steed, Tobias Ritschel and Kaan Aksit_
 
