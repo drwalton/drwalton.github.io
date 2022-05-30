@@ -19,11 +19,11 @@ Mixed reality creates new challenges when producing high quality real-time graph
 <a href="images/metalight.jpg">
 <img align="left" src="images/metalight.jpg" width=100 hspace=10>
 </a>
-**Beyond Flicker, Beyond Blur: View-coherent Metameric Light Fields for Foveated DisplayMetameric Light Fields for **
+**Beyond Flicker, Beyond Blur: View-coherent Metameric Light Fields for Foveated Display**
 
 _Prithvi Kohli, David R. Walton, Rafael Kuffner dos Anjos, Anthony Steed and Tobias Ritschel_
 
-IEEEVR 2022, Poster
+Poster presented at IEEEVR 2022:
 [\[Page\]](https://vr.cs.ucl.ac.uk/research/pipelines/metameric-light-fields/)
 [\[Poster\]](https://docs.google.com/presentation/d/1Ie3Vy5Bs3SWeCePeJEVUhX8SEq4VblZen7Nz9NqRKWs/edit#slide=id.p)
 [\[Short Paper\]](https://vr.cs.ucl.ac.uk/wp-content/uploads/sites/24/2022/03/Metameric__Light_Fields_Poster.pdf)
@@ -38,7 +38,7 @@ This work extends the metamer generation to 3D light fields. These present some 
 
 _David R. Walton, Koray Kavakli, Rafael Kuffner dos Anjos, David Swapp, Tim Weyrich, Hakan Urey, Anthony Steed, Tobias Ritschel and Kaan Aksit_
 
-IEEEVR 2022 
+IEEEVR 2022:
 [\[PDF(ArXiv)\]](https://arxiv.org/abs/2110.01981) 
 [\[Page\]](https://vr.cs.ucl.ac.uk/research/pipelines/metameric-varifocal-holography/) 
 [\[Video\]](https://vimeo.com/623474853) 
@@ -58,7 +58,7 @@ This work focuses on improving computer generated holograms where gaze informati
 
 _D Walton, R Kuffner-dos Anjos, S Friston, D Swapp, A Steed, T Ritschel_
 
-ACM Trans Graph (Proc. SIGGRAPH 2021) 40(3) 
+ACM Trans Graph (Proc. SIGGRAPH 2021) 40(3): 
 [\[PDF\]](https://drwalton.github.io/papers/Beyond_Blur_Preprint.pdf) 
 [\[Webpage\]](https://vr-unity-viewer.cs.ucl.ac.uk/) 
 [\[Unity Package\]](https://vr-unity-viewer.cs.ucl.ac.uk/assets/UnityPackage.zip) 
@@ -86,7 +86,7 @@ My EngD project focused on real-time techniques for enhancing graphics in MR app
 
 _David R. Walton and Anthony Steed_
 
-VRST 2018
+VRST 2018: 
 [\[PDF\]](https://discovery.ucl.ac.uk/id/eprint/10073554/1/VRST_2018_preprint.pdf) 
 [\[Bibtex\]](bibtex/vrst_2018.html)
 [\[Video\]](https://vimeo.com/429299252)
@@ -104,7 +104,7 @@ This paper built on the earlier work in **Synthesis of Environment Maps for Mixe
 
 _David R. Walton and Anthony Steed_
 
-VRST 2017
+VRST 2017: 
 [\[PDF\]](https://discovery.ucl.ac.uk/id/eprint/1575582/7/Walton_a11-walton.pdf) 
 [\[Bibtex\]](bibtex/vrst_2017.html)
 [\[Video\]](https://vimeo.com/429298989)
@@ -119,7 +119,7 @@ In MR applications, correctly handling occlusion of virtual objects by real ones
 
 _David R. Walton, Diego Thomas, Anthony Steed and Akihiro Sugimoto_
 
-ISMAR 2017
+ISMAR 2017: 
 [\[PDF\]](https://discovery.ucl.ac.uk/id/eprint/1569655/1/ISMAR_RevisedSubmission_2017_06.pdf)
 [\[Bibtex\]](bibtex/ismar_2017.html)
 
