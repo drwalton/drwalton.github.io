@@ -130,8 +130,12 @@ High-quality estimation of surrounding lighting is important for rendering reali
 
 **Augmented Reality Occlusion**
 
-David R. Walton, Imagination Technologies Ltd
-[\[Google Patents\]](https://patents.google.com/patent/US10600247B2/en)
+David R. Walton, Imagination Technologies Ltd.
+[\[Google Patents\]](https://patents.google.com/patent/US10600247B2/)
+
+**Analysing Objects in a Set of Frames**
+Aria Ahmadi, David R. Walton, Cagatay Dikici, Imagination Technologies Ltd.
+[\[Google Patents\]](https://patents.google.com/patent/GB2599506A/)
 
 # Career
 
