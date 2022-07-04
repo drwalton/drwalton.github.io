@@ -29,7 +29,7 @@ Poster presented at IEEEVR 2022:
 [\[Short Paper\]](https://vr.cs.ucl.ac.uk/wp-content/uploads/sites/24/2022/03/Metameric__Light_Fields_Poster.pdf)
 [\[Teaser Video\]](https://www.youtube.com/watch?v=uCWhjDCPIWY)
 
-This work extends the metamer generation to 3D light fields. These present some unique challenges when trying to create metamers with coherent, convincing motion in the periphery. We show how these light field metamers can be generated, and explore how they can be efficiently compressed.
+This work extends metamer generation to 3D light fields. These present some unique challenges when trying to create metamers with coherent, convincing motion in the periphery. We show how these light field metamers can be generated, and explore how they can be efficiently compressed.
 
 <a href="images/metaholo.jpg">
 <img align="left" src="images/metaholo.jpg" width=100 hspace=10>
@@ -130,12 +130,12 @@ High-quality estimation of surrounding lighting is important for rendering reali
 
 **Augmented Reality Occlusion**
 
-David R. Walton, Imagination Technologies Ltd.
+_David R. Walton, Imagination Technologies Ltd._
 [\[Google Patents\]](https://patents.google.com/patent/US10600247B2/)
 
 **Analysing Objects in a Set of Frames**
 
-Aria Ahmadi, David R. Walton, Cagatay Dikici, Imagination Technologies Ltd.
+_Aria Ahmadi, David R. Walton, Cagatay Dikici, Imagination Technologies Ltd._
 [\[Google Patents\]](https://patents.google.com/patent/GB2599506A/)
 
 # Career
