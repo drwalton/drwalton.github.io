@@ -42,7 +42,7 @@ IEEEVR 2022:
 [\[PDF(ArXiv)\]](https://arxiv.org/abs/2110.01981) 
 [\[Page\]](https://vr.cs.ucl.ac.uk/research/pipelines/metameric-varifocal-holography/) 
 [\[Video\]](https://vimeo.com/623474853) 
-[\[Supplementary Material\]](http://vr.cs.ucl.ac.uk/wp-content/uploads/sites/24/2021/10/Metameric_Varifocal_Holography_Supplemental_Material.pdf) 
+[\[Supplementary Material\]](https://vr.cs.ucl.ac.uk/wp-content/uploads/sites/24/2022/07/Metameric_Varifocal_Holography_Supplemental_Material.pdf) 
 [\[Code\]](https://github.com/complight/metameric_holography) 
 [\[Library\]](https://github.com/kunguz/odak)
 
