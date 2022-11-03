@@ -63,6 +63,7 @@ ACM Trans Graph (Proc. SIGGRAPH 2021) 40(3):
 [\[Webpage\]](https://vr-unity-viewer.cs.ucl.ac.uk/) 
 [\[Unity Package\]](https://vr-unity-viewer.cs.ucl.ac.uk/assets/UnityPackage.zip) 
 [\[Windows Demo\]](https://vr-unity-viewer.cs.ucl.ac.uk/MetamersDemo.zip)
+[\[Python Example\]](https://drwalton.github.io/demo/make_metamer.py)
 
 This work introduces a new method for foveated rendering using ventral image metamers. These are alternative versions of images which are indistinguishable from the original for a given fixation point. We introduce a method to extract a model of the perceivable components of an image for a given fixation point, and a method to convert this model to a metamer of the input. Both methods are fast, and the model is compact, allowing metamers to be used for the first time in real-time compression and rendering applications.
 
