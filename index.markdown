@@ -44,7 +44,7 @@ IEEEVR 2022:
 [\[Video\]](https://vimeo.com/623474853) 
 [\[Supplementary Material\]](https://vr.cs.ucl.ac.uk/wp-content/uploads/sites/24/2022/07/Metameric_Varifocal_Holography_Supplemental_Material.pdf) 
 [\[Code\]](https://github.com/complight/metameric_holography) 
-[\[Library\]](https://github.com/kunguz/odak)
+[\[Library\]](https://github.com/kaanaksit/odak)
 
 This work focuses on improving computer generated holograms where gaze information is known. It exploits gaze in two ways. First, by using a metameric loss based on our earlier Beyond Blur paper which only penalises perceivable content in the hologram. Second, the holograms are optimised to be correct only at the user's current focal plane. We test our results on a real holographic display prototype.
 
