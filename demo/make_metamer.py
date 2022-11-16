@@ -29,6 +29,9 @@ image = torch.tensor(load_image("image.png")).float() / 255
 image = image.permute(2,0,1)[None,...]
 
 # Make the loss func (change parameters here if desired)
+# Note - if you're running on large images, or large numbers of images I'd recommend
+# running on the GPU if possible. Set device=torch.device("cuda") in the constructor
+# here, and convert the inputs & outputs as appropriate (e.g. with .cuda() and .cpu()).
 loss_func = MetamerMSELoss(
     alpha=0.04, 
     real_image_width=0.2, real_viewing_distance=0.7, 
@@ -41,7 +44,7 @@ metamer = loss_func.gen_metamer(image, gaze=[0.5, 0.5])
 metamer_disp = metamer[0,...].permute(1,2,0)
 
 # Save the metamer (set range of values in image to [0,1])
-save_image("canal_metamer.png", metamer_disp, 0, 1)
+save_image("image_metamer.png", metamer_disp, 0, 1)
 
 # Show the metamer in matplotlib
 plt.imshow(metamer[0,...].permute(1,2,0))
