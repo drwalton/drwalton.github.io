@@ -23,8 +23,9 @@ Mixed reality creates new challenges when producing high quality real-time graph
 
 _Rafael Kuffner dos Anjos, David R. Walton, Kaan Aksit, Sebastian Friston, David Swapp, Anthony Steed and Tobias Ritschel_
 
-TVCG 2022
+TVCG 2022:
 [\[PDF\]](https://drwalton.github.io/papers/Metameric_Inpainting_for_Image_Warping.pdf) 
+[More to come soon!]
 
 This paper applies the principles from Beyond Blur to real-time image inpainting, with applications in warping rendered RGBD images to improve framerate, or to fill in missing details in inputs such as 360 video. Missing regions of the image are filled based on image statistics gathered around the disoccluded regions.
 
