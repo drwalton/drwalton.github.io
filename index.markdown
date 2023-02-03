@@ -26,6 +26,7 @@ _Rafael Kuffner dos Anjos, David R. Walton, Kaan Aksit, Sebastian Friston, David
 TVCG 2022:
 [\[PDF\]](https://drwalton.github.io/papers/Metameric_Inpainting_for_Image_Warping.pdf) 
 [\[Video\]](https://vimeo.com/772790447)
+[\[Webpage\]](https://drwalton.github.io/metameric_inpainting_page/)
 
 This paper applies the principles from Beyond Blur to real-time image inpainting, with applications in warping rendered RGBD images to improve framerate, or to fill in missing details in inputs such as 360 video. Missing regions of the image are filled based on image statistics gathered around the disoccluded regions.
 
