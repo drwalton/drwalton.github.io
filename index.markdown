@@ -24,7 +24,7 @@ Mixed reality creates new challenges when producing high quality real-time graph
 _Rafael Kuffner dos Anjos, David R. Walton, Kaan Aksit, Sebastian Friston, David Swapp, Anthony Steed and Tobias Ritschel_
 
 TVCG 2022:
-[\[PDF\]](https://drwalton.github.io/papers/Metameric_Inpainting_for_Image_Warping.pdf) 
+[\[Paper\]](https://ieeexplore.ieee.org/document/9928218) 
 [\[Video\]](https://vimeo.com/772790447)
 [\[Webpage\]](https://drwalton.github.io/metameric_inpainting_page/)
 
