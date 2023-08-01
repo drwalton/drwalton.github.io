@@ -1,6 +1,6 @@
 
 <img align="right" src="images/david.JPG" height=150 hspace=10>
-I am a postdoctoral research fellow, working at the [Virtual Environments and Computer Graphics](http://vecg.cs.ucl.ac.uk/) group at [University College London](https://www.ucl.ac.uk/) with [Anthony Steed](https://wp.cs.ucl.ac.uk/anthonysteed/). My research focuses on rendering and computer vision techniques for virtual and augmented reality.
+I am a Lecturer in Graphics and Vision at Birmingham City University, UK, working in the [Digital Media Technology Lab](https://www.bcu.ac.uk/computing/research/digital-media-technology).
 
 # Research Interests
 
@@ -155,9 +155,13 @@ _Aria Ahmadi, David R. Walton, Cagatay Dikici, Imagination Technologies Ltd._
 
 # Career
 
-## Research Associate, UCL 2020-Present
+## Lecturer, BCU 2023-Present
 
-I currently work as a research fellow in the [Virtual Environments and Computer Graphics](http://vecg.cs.ucl.ac.uk/) group at UCL.
+I currently work as Lecturer in Graphics and Vision in the [Digital Media Technology Lab](https://www.bcu.ac.uk/computing/research/digital-media-technology) at Birmingham City University.
+
+## Research Associate, UCL 2020-2023
+
+From 2020-2023 I worked as a research fellow in the [Virtual Environments and Computer Graphics](http://vecg.cs.ucl.ac.uk/) group at UCL, working on novel graphics techniques, displays and perceptual graphics.
 
 ## Research Engineer, Imagination Technologies 2018-2020
 
@@ -177,7 +181,7 @@ I completed my BSc in Mathematics at the University of Warwick, obtaining a 1st 
 
 # Contact
 
-Email: david.walton.13 at ucl.ac.uk
+Email: david.walton at bcu.ac.uk
 
 [Google Scholar](https://scholar.google.com/citations?user=GQMA8PQAAAAJ)
 
