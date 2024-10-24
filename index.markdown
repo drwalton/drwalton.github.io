@@ -1,6 +1,6 @@
 
 <img align="right" src="images/david.JPG" height=150 hspace=10>
-I am a Lecturer in Graphics and Vision at Birmingham City University, UK, working in the [Digital Media Technology Lab](https://www.bcu.ac.uk/computing/research/digital-media-technology).
+I am a Lecturer in Graphics and Vision at Birmingham City University, UK, working in the [Graphics and Vision Research Group](https://www.bcu.ac.uk/research/computing/digital-media-technology/research-subgroups/digital-image-and-video-processing) at Birmingham City University.
 
 # Research Interests
 
@@ -157,7 +157,7 @@ _Aria Ahmadi, David R. Walton, Cagatay Dikici, Imagination Technologies Ltd._
 
 ## Lecturer, BCU 2023-Present
 
-I currently work as Lecturer in Graphics and Vision in the [Digital Media Technology Lab](https://www.bcu.ac.uk/computing/research/digital-media-technology) at Birmingham City University.
+I currently work as Lecturer in Graphics and Vision in the [Graphics and Vision Research Group](https://www.bcu.ac.uk/research/computing/digital-media-technology/research-subgroups/digital-image-and-video-processing) at Birmingham City University.
 
 ## Research Associate, UCL 2020-2023
 
