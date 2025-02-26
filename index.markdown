@@ -13,8 +13,23 @@ Advances in display technology are allowing increasingly high-fidelity displays 
 Mixed reality creates new challenges when producing high quality real-time graphics. The rendered virtual content needs to not only appear realistic, but also consistent with the existing real content. One challenge is how to effectively estimate the real lighting environment, and how to use the estimate to render the virtual content. Another is that of accurately determining where virtual content is obscured by real content, and should not be rendered.
 
 # Publications
+## 2025
 
-## 2022
+<a href="images/blind.png">
+<img align="left" src="images/blind.png" width=100 hspace=10>
+</a>
+**Blind Augmentation: Calibration-free Camera Distortion Model Estimation for Real-time Mixed-reality Consistency**
+
+_Siddhant Prakash, David R. Walton, Rafael K. dos Anjos, Anthony Steed and Tobias Ritschel_
+
+To appear in TVCG 2025 (will be presented at IEEEVR 2025):
+[\[Preprint\]](https://rafaelkuffner.github.io/assets/papers/TVCG2025.pdf)
+[\[Webpage\]](https://prakashsidd18.github.io/projects/blind_augmentation/)
+
+This paper applies the principles from Beyond Blur to real-time image inpainting, with applications in warping rendered RGBD images to improve framerate, or to fill in missing details in inputs such as 360 video. Missing regions of the image are filled based on image statistics gathered around the disoccluded regions.
+
+
+## 2023
 
 <a href="images/inpainting.png">
 <img align="left" src="images/inpainting.png" width=100 hspace=10>
@@ -23,12 +38,14 @@ Mixed reality creates new challenges when producing high quality real-time graph
 
 _Rafael Kuffner dos Anjos, David R. Walton, Kaan Aksit, Sebastian Friston, David Swapp, Anthony Steed and Tobias Ritschel_
 
-TVCG 2022:
+TVCG 2023:
 [\[Paper\]](https://ieeexplore.ieee.org/document/9928218) 
 [\[Video\]](https://vimeo.com/772790447)
 [\[Webpage\]](https://drwalton.github.io/metameric_inpainting_page/)
 
 This paper applies the principles from Beyond Blur to real-time image inpainting, with applications in warping rendered RGBD images to improve framerate, or to fill in missing details in inputs such as 360 video. Missing regions of the image are filled based on image statistics gathered around the disoccluded regions.
+
+## 2022
 
 <a href="images/metalight.jpg">
 <img align="left" src="images/metalight.jpg" width=100 hspace=10>
