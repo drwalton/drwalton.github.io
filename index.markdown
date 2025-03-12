@@ -1,6 +1,6 @@
 
 <img align="right" src="images/david.JPG" height=150 hspace=10>
-I am a Lecturer in Graphics and Vision at Birmingham City University, UK, working in the [Graphics and Vision Research Group](https://www.bcu.ac.uk/research/computing/digital-media-technology/research-subgroups/digital-image-and-video-processing) at Birmingham City University.
+I am a [Lecturer in Graphics and Vision at Birmingham City University, UK](https://www.bcu.ac.uk/computing-engineering-and-the-built-environment/staff/computing/david-walton), working in the [Graphics and Vision Research Group](https://www.bcu.ac.uk/research/computing/digital-media-technology/research-subgroups/digital-image-and-video-processing) at Birmingham City University.
 
 # Research Interests
 
